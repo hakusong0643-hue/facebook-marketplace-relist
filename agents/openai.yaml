@@ -1,0 +1,13 @@
+interface:
+  display_name: Marketplace 重新刊登與社團上架
+  short_description: 批次重新刊登符合資格的車輛，並補上尚未刊登的中古車買賣社團
+  default_prompt: 用 $facebook-marketplace-relist 幫我重新刊登所有可重新刊登的車，再補上還沒上架的社團。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
